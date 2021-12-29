@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+    <title>Layout</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header" id="header">
+            <div class="container">
+                <div class="header__content">
+                    <div class="header__logo">
+                        <img src="./img/logo.png" alt="logo" class="logo__img">
+                    </div>
+                    <nav class="header__nav nav">
+                        <ul class="nav__list">
+                            <li class="nav__item"><a class="nav__link" href="#header">Главная</a></li>
+                            <li class="nav__item"><a class="nav__link" href="#about">Об авторе</a></li>
+                            <li class="nav__item"><a class="nav__link" href="#project__items">Работы</a></li>
+                            <li class="nav__item"><a class="nav__link" href="#work">Процесс</a></li>
+                            <li class="nav__item"><a class="nav__link" href="#contact-form">Контакты</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="first-screen">
+                <div class="container">
+                    <div class="first-screen__content">
+                        <div class="first-screen__picture">
+                            <img class="first-screen__img" src="./img/first-screen__picture.png" alt="Picture">
+                        </div>
+                        <div class="first-screen__text-content text-content">
+                            <div class="text-content__heading">
+                                <h1 class="heading">Дизайн и верстка</h1>
+                            </div>
+                            <div class="text-content__text">
+                                <p class="text first-screen__text">
+                                    Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
+                                </p>
+                            </div>
+                            <div class="text-content__button">
+                                <button class="btn">Написать мне</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="about" id="about">
+                <div class="container">
+                    <section class="description">
+                        <div class="heading">
+                            <h2 class="heading heading_h2">Обо мне</h2>
+                        </div>
+                        <div class="description-text">
+                            <p class="text_centered text">
+                                Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
+                            </p>
+                        </div>
+                    </section>
+                </div>
+                <section class="about__projects activity _accent">
+                    <div class="activity__items" id="activity__items">
+                        <ul class="activity__list">
+                            <li class="activity__item">
+                                <img src="./img/project.png" alt="my projects">
+                                <p class="activity__text"><span class="activity__text_bold">40+</span><br>проектов</p>
+                            </li>
+                            <li class="activity__item">
+                                <img src="./img/project.png" alt="my projects">
+                                <p class="activity__text"><span class="activity__text_bold">40+</span><br>проектов</p>
+                            </li>
+                            <li class="activity__item">
+                                <img src="./img/project.png" alt="my projects">
+                                <p class="activity__text"><span class="activity__text_bold">40+</span><br>проектов</p>
+                            </li>
+                            <li class="activity__item">
+                                <img src="./img/project.png" alt="my projects">
+                                <p class="activity__text"><span class="activity__text_bold">40+</span><br>проектов</p>
+                            </li>
+                            <li class="activity__item">
+                                <img src="./img/project.png" alt="my projects">
+                                <p class="activity__text"><span class="activity__text_bold">40+</span><br>проектов</p>
+                            </li>
+                            <li class="activity__item">
+                                <img src="./img/project.png" alt="my projects">
+                                <p class="activity__text"><span class="activity__text_bold">40+</span><br>проектов</p>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <div class="container">
+                    <section class="about__skills skills">
+                        <div class="skills__description">
+                            <div class="skills__heading">
+                                <h2 class="heading heading_h2" style="text-align: left;">Мои навыки</h2>
+                            </div>
+                            <div class="skills__list">
+                                <ul>
+                                    <li class="skills__item">
+                                        <p class="text">Adobe Photoshop</p>
+                                        <meter class="skills-section__progress" value="80" max="100"></meter>
+                                    </li>
+                                    <li class="skills__item">
+                                        <p class="text">Adobe Photoshop</p>
+                                        <meter class="skills-section__progress" value="80" max="100"></meter>
+                                    </li>
+                                    <li class="skills__item">
+                                        <p class="text">Adobe Photoshop</p>
+                                        <meter class="skills-section__progress" value="80" max="100"></meter>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="skills__photo">
+                            <img class="skills__img" src="/img/face.png" alt="my photo">
+                        </div>
+                    </section>
+                </div>
+            </section>
+            <section class="work" id="work">
+                <div class="container">
+                    <section class="description work__description" id="work__description">
+                        <div class="heading work__heading">
+                            <h2 class="heading heading_h2">Как я работаю</h2>
+                        </div>
+                        <div class="description-text work__description-text">
+                            <p class="text_centered text">
+                                Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
+                            </p>
+                        </div>
+                    </section>
+                    <section class="work__video">
+                        <img class="work__img" src="./img/video_picture.png" alt="Video pic">
+                        <div class="work__overlay">
+                            <div class="work__button">
+                                <a href="#work"><img class="button-image" src="./img/play_btn.png" alt="Play me"></img></a>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </section>
+            <section class="projects">
+                <ul class="projects__list">
+                    <li class="projects__item first-item">
+                        <img src="./img/pic_note.png" alt="" class="projects-examples__img">
+                        <div class="projects__overlay">
+                            <div class="projects__overlay-img">
+                                <img src="./img/view.png" alt="an eye">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="projects__item second-item">
+                        <img src="./img/pic_pc.png" alt="" class="projects-examples__img">
+                        <div class="projects__overlay">
+                            <div class="projects__overlay-img">
+                                <img src="./img/view.png" alt="an eye">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="projects__item third-item">
+                        <img src="./img/pic_note.png" alt="" class="projects-examples__img">
+                        <div class="projects__overlay">
+                            <div class="projects__overlay-img">
+                                <img src="./img/view.png" alt="an eye">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="projects__item fourth-item">
+                        <img src="./img/pic_pc.png" alt="" class="projects-examples__img">
+                        <div class="projects__overlay">
+                            <div class="projects__overlay-img">
+                                <img src="./img/view.png" alt="an eye">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="projects__item fifth-item">
+                        <img src="./img/pic_pc.png" alt="" class="projects-examples__img">
+                        <div class="projects__overlay">
+                            <div class="projects__overlay-img">
+                                <img src="./img/view.png" alt="an eye">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="projects__item sixth-item">
+                        <img src="./img/pic_note.png" alt="" class="projects-examples__img">
+                        <div class="projects__overlay">
+                            <div class="projects__overlay-img">
+                                <img src="./img/view.png" alt="an eye">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="projects__item seventh-item">
+                        <img src="./img/pic_pc.png" alt="" class="projects-examples__img">
+                        <div class="projects__overlay">
+                            <div class="projects__overlay-img">
+                                <img src="./img/view.png" alt="an eye">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="projects__item eighth-item">
+                        <img src="./img/pic_note.png" alt="" class="projects-examples__img">
+                        <div class="projects__overlay">
+                            <div class="projects__overlay-img">
+                                <img src="./img/view.png" alt="an eye">
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+            <section class="contact-form" id="contact-form">
+                <div class="container">
+                    <section class="description work__description">
+                        <div class="heading work__heading">
+                            <h2 class="heading heading_h2">Хотите веб-сайт?</h2>
+                        </div>
+                        <div class="description-text work__description-text">
+                            <p class="text_centered text">
+                                Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
+                            </p>
+                        </div>
+                    </section>
+                    <div class="form-block">
+                        <form class="form" action="">
+                            <div class="form-inputs">
+                                <input class="input" type="text" placeholder="Ваше Имя">
+                                <input class="input" type="text" placeholder="Ваш e-mail">
+                            </div>
+                            <textarea name="" id="" cols="30" rows="10" class="form-textarea" placeholder="Сообщение"></textarea>
+                            <div class="contact-form__button">
+                                <button class="btn">Отправить</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer _accent">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer__copy">
+                        <h3 class="footer__heading heading__third">Иванов Иван</h3>
+                        <p class="footer__copy-text">(с) 2018. Все права защищены.</p>
+                    </div>
+                    <div class="footer__social">
+                        <a href="#"><img class="footer__icon" src="./img/vk-social__icon.png" alt="vk-social__icon"></a>
+                        <a href="#"><img class="footer__icon" src="./img/vk-social__icon.png" alt="vk-social__icon"></a>
+                        <a href="#"><img class="footer__icon" src="./img/vk-social__icon.png" alt="vk-social__icon"></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
